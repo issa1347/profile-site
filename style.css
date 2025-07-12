@@ -64,6 +64,19 @@ body {
 
 /* ✅ レスポンシブ対応：スマホ（600px以下） */
 @media screen and (max-width: 600px) {
+   body {
+  margin: 0;
+  padding: 0;
+  background-image: url('Image_fx (10).jpg'); /* 背景画像を設定 */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: white;
+  text-align: center;
+}
+  
   .container {
     padding: 20px 15px;
   }
